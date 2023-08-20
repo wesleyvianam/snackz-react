@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import api from '../../Helpers/api';
+import api from '../../helpers/api';
 
 function Login() {
   const [email, setEmail] = useState('');
