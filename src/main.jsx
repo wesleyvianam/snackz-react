@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import App from './App/Page/App.jsx'
 import axios from 'axios';
 
 const csrfTokenMeta = document.querySelector('meta[name="csrf-token"]');
